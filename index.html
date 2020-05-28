@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">  
+ <title>Kedrick Martin</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="media.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+ <script>
+  $(document).ready(function(){
+    $(".btn").click(function(){
+      $("#intro-overlay").fadeOut(1000);
+    });
+    
+  });
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="intro-overlay" >
+ 
+        <div class="overlay-img">
+          <img class="font-img" src="images/Kay.png">
+        </div>
+        <div>
+          <button id="intro-button" class="btn" onclick="intro-Alloff()"><span style="text-align:center;font-size: 15px;">WELCOME!</span><br><span>click here</span></button>
+        </div>
+  </div>
+
+
+    <div= class="wrapper">
+
+    <header id="top">
+        <nav>
+            <div class="logo">
+                <img src="images/Kay.png" >
+            </div>
+            <section class="info" id="topNav">
+                    <a href="#" onclick="on()">Contact</a>
+                    <a href="#myProjects">Projects</a>
+                    <a href="#aboutme">About</a>
+                    <a href="javascript:void(0);" class="icon" onclick="navi()">
+                      <i class="fa fa-bars" style="width:20px;height:20px"></i>
+                    </a>
+
+            </section>   
+        </nav>
+    </header>
+
+<div class="content">
+       
+    <section class="about">
+
+          <div class="picture-container">
+            <div class="picture"></div>
+          </div>
+
+            <div class="me">
+                <span><h4>Hello I'm Kedrick Martin</h4></span>
+                <span><h1>Web Developer/Logo Designer</h1></span>
+                <span><h5 style="margin-bottom:20px;letter-spacing: 2px;font-weight: 100;color:grey;">
+                    Let's talk about it, let's think about what we want,
+                    then let's work!</h5></span>
+                <div class="btn">
+                        <div id="overlay" onclick="off()">
+                            <div id="text">
+                                    <a href="mailto:karnez05@yahoo.com?Subject=Hello%20again" target="_top">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    </a>
+  
+
+                                    <a href="https://www.linkedin.com/in/kedrick-martin-3a4916142/">
+                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                        
+                                   
+                                    <a id="phone">                                  
+                                    <div class="tooltip"><i class="fa fa-mobile" aria-hidden="true" ></i>
+                                        <span class="tooltiptext" style="font-size: 30px;">813-445-5413‬</span>
+                                    </div>                    
+                                    </a>
+                                   
+                                </p>
+                            </div>
+                        </div>
+                    <a href="#" onclick="on()">Contact Me</a>
+                </div>
+                
+            </div>
+
+        <section class="about-section" id="aboutme">
+                <div style="width: 100%;display: block;margin-bottom: 30px;">
+                    <h1 class="title">ABOUT</h1>
+                <img src="images/line.png" class="line" style="width: 200px; padding: 0 380px;height: 20px;">
+                </img>
+              </div>
+             
+
+             <section class="inside" style="display:inline-block; width:50%; vertical-align: top;">
+                    <aside class="bio">
+                            <div><h2>Bio</h2></div>
+                          I'm a Web Developer with an artistic background and an eye for design. A recent resident of Tampa Florida, I now live in the Maryland area.
+                        I take great pride in being able to take a design given to me or seen 
+                        and recreate it. When I'm not creating websites, I'm designing logos or graphics
+                        for existing projects or for other clients. I've built freelance projects for clients
+                        and helped people finish projects. If you need work done, just click the contact button and we can get things rolling. Looking forward to hearing from you soon.
+
+                    </aside>
+
+            </section>
+            
+            <section class="resume">
+                    <div><h2>Resume</h2></div>
+                    <div style="height: 15px;padding:0 10px 10px 0"><h8>Click Image</h8></div>
+                    <button id="resume-btn"><img src="images/small resume.jpg"></button>
+            </section>
+
+        </section>
+
+      </aside>
+
+
+        <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">
+                    <img src="images/Screenshot (31).png" style="width: 800px; padding:0 200px;">
+                </span>
+                </div>
+              
+              </div>
+
+        <section class="portfolio" id="myProjects">
+                <div style="width: 100%;display: block; margin-bottom:20px">
+                        <h1 class="title pro">Projects</h1>
+                    <img src="images/line.png" class="line" style="width: 200px; 
+                    padding: 0 320px;height: 20px;margin-bottom: 30px;">
+
+                
+                   </div>
+            
+                <div class="img-container">               
+                        <img src="images/ohBagels site.jpg"class="image">
+                        <div class="overlay">
+                        <div class="text"><a href="https://oh-bagels.netlify.com">To Live Site</a>                
+                        </div>   
+                        <div style="position: absolute; bottom:0; right:0; padding:10px"> 
+                          <a href="https://github.com/Karnez05/OhBagels" style="text-decoration: none; color:white; font-size: 20px;text-shadow:1px 1px 1px black;">View Code</a> 
+                         </div>                                                          
+                        </div> 
+                        <div style="display: block;padding: 20px;">
+                        <span style="font-size: 15px; font-weight: 100;letter-spacing: 2px;
+                          text-align:justify">
+                            Responsive website
+                            made with Html, Css, JavaScript and Flex-box. </span>  
+                        </div>                                   
+                </div>
+
+                <div class="img-container">
+                        <img src="images/ohBagels email.jpg"class="image">
+                        <div class="overlay">
+                          <div class="text"><a href="https://karnez05.github.io/OhBagels-Email/">To Live Email</a>
+                          </div>   
+                          <div style="position: absolute; bottom:0; right:0; padding:10px"> 
+                            <a href="https://github.com/Karnez05/OhBagels-Email" style="text-decoration: none; color:white; font-size: 20px;text-shadow:1px 1px 1px black;">View Code</a> 
+                           </div> 
+                          </div>   
+                           <div style="display: block;padding: 20px;">                                   
+                            <span style="font-size: 15px; font-weight: 100;letter-spacing: 2px;
+                            text-align: justify;">
+                              Responsive Html Email, created with Html tables, with optimized images.</span>
+                          </div>
+                         
+                </div>
+
+                <div class="img-container">
+                  <img src="images/youth.jpg"class="image">
+                  <div class="overlay">
+                    <div class="text"><a href="https://all-about-the-youth-email.netlify.com/">To Live Email</a>
+                    </div>
+                    <div style="position: absolute; bottom:0; right:0; padding:10px"> 
+                        <a href="https://github.com/Karnez05/About-the-youth" style="text-decoration: none; color:white; font-size: 20px;text-shadow:1px 1px 1px black;">View Code</a> 
+                       </div> 
+                      </div>   
+                       <div style="display: block;padding: 20px;"> 
+                      <span style="font-size: 15px; font-weight: 100;letter-spacing: 2px;
+                      text-align: justify;">
+                        Responsive HTML Email, made with Html tables, with optimized images.</span>
+              
+                  </div>        
+              </div>
+
+                <div class="img-container">
+                  <img src="images/D&R.jpg"class="image">
+                  <div class="overlay">                  
+                    <div class="text"><a href="https://diamondzroses.netlify.com">To Live Site</a>
+                    </div>
+                    <div style="position: absolute; bottom:0; right:0; padding:10px"> 
+                        <a href="https://github.com/Karnez05/DiamondzNRosez" style="text-decoration: none; color:white; font-size: 20px;text-shadow:1px 1px 1px black;">View Code</a> 
+                       </div> 
+                      </div>   
+                       <div style="display: block;padding: 20px;"> 
+                      <span style="font-size: 15px; font-weight: 100;letter-spacing: 2px;
+                      text-align: justify;">
+                        Responsive photographer website, made with Html,Css,Bootstap and Jquery.</span>
+                   
+                    </div>
+                   
+          </div>
+
+            
+                <div class="img-container">
+                        <img src="images/upgrade.jpg"class="image">
+                        <div class="overlay">
+                          <div class="text"><a href="#">Updating</a>
+                          </div>
+                          <div style="position: absolute; bottom:0; right:0; padding:10px"> 
+                              <a href="https://github.com/Karnez05/TheUpgrade.io" style="text-decoration: none; color:white; font-size: 20px;text-shadow:1px 1px 1px black;">View Code</a> 
+                             </div> 
+                            </div>   
+                             <div style="display: block;padding: 20px;"> 
+                            <span style="font-size: 15px; font-weight: 100;letter-spacing: 2px;
+                            text-align: justify;">
+                              Technology based website made with Html,Css,JavaScript and bootstrap.</span>
+                         
+                        </div>   
+                </div>
+
+               
+
+                <div class="img-container">
+                        <img src="images/under-construction.png"class="image"style="height:270px" >
+                        <div class="overlay">
+                          <div class="text"><a href="#">React project coming</a>
+                          </div>
+                          <div style="position: absolute; bottom:0; right:0; padding:10px"> 
+                              <a href="#" style="text-decoration: none; color:white; font-size: 20px;text-shadow:1px 1px 1px black;">View Code</a> 
+                             </div> 
+                            </div>   
+                             <div style="display: block;padding: 20px;"> 
+                            <span style="font-size: 15px; font-weight: 100;letter-spacing: 2px;
+                            text-align: justify;">
+                              Fully Responsive React website</span>
+                        </div>
+                </div>
+
+                <div class="img-container">
+                    <img src="images/under-construction.png"class="image"style="height:270px" >
+                        <div class="overlay">
+                          <div class="text"><a href="#">React project coming</a>
+                          </div>
+                          <div style="position: absolute; bottom:0; right:0; padding:10px"> 
+                              <a href="#" style="text-decoration: none; color:white; font-size: 20px;text-shadow:1px 1px 1px black;">View Code</a> 
+                             </div> 
+                            </div>   
+                             <div style="display: block;padding: 20px;"> 
+                            <span style="font-size: 15px; font-weight: 100;letter-spacing: 2px;
+                            text-align: justify;">
+                              Fully Responsive React website</span>
+                        </div>
+                </div>
+
+                <div class="img-container">
+                    <img src="images/under-construction.png"class="image"style="height:270px" >
+                        <div class="overlay">
+                          <div class="text"><a href="#">React project coming</a>
+                          </div>
+                          <div style="position: absolute; bottom:0; right:0; padding:10px"> 
+                              <a href="#" style="text-decoration: none; color:white; font-size: 20px;text-shadow:1px 1px 1px black;" >View Code</a> 
+                             </div> 
+                            </div>   
+                             <div style="display: block;padding: 20px;"> 
+                            <span style="font-size: 15px; font-weight: 100;letter-spacing: 2px;
+                            text-align: justify;">
+                              Fully Responsive React website</span>
+                        </div>
+                </div>
+
+        </section>
+
+        <section class="footer">
+               
+                <div class="footer-logo">
+                    <a href="#top"><img src="images/Kay.png" ></a>
+                </div>
+                <div class="footer-info">
+                  <span><h2>
+                    Kedrick Martin<br>
+                    martinTech<br>
+                    Columbia,MD<br>
+                    
+                  </h2>
+                  <a href="#" onclick="on()">Contact Me</a>
+                </span>
+                </div>
+                
+        </section>
+
+    </section>
+
+</div>
+ <!--end of page-->
+  </div>
+</body>
+
+<script src="portfolio.js"></script>
+
+</html>

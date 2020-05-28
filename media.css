@@ -1,0 +1,250 @@
+@media only screen and (min-width: 603px){
+  .picture-container{
+    width:32%;
+    height:auto;
+    display: inline-block;
+  }
+ 
+}
+ @media only screen and (max-width: 320px){
+  .overlay-img{
+    width: 100%;
+  }
+  .font-img{
+  margin: 80px auto 0 auto !important;
+  display: block;
+}
+ #intro-button.btn{
+   margin: 0 auto !important;
+   display: block;
+   color:black;
+ }
+ body{
+   padding:none !important;
+ }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+ .logo{
+   margin-left: 0;
+ }
+ .picture-container{
+   text-align:center;
+ }
+  .picture{
+    width:200px !important;
+    height:200px !important;
+    margin: 20px auto;
+  }
+  #top{
+    width: auto;
+  }
+ 
+  .font-img{
+    width: 300px;
+    margin:80px auto 0 auto !important ;
+    display: block;
+  }
+ #intro-button.btn{
+    margin:0 auto !important;
+    font-size: 8px;
+    display:block;
+    color: black;
+  }
+ 
+    .info{
+        width:70%;
+        float: right;
+        margin: 25px 0;
+       
+    }
+   .info a{
+       display: none;
+       border-radius: none !important;
+   }
+    #topNav a.icon {
+        float: right;
+        display: block;
+      }
+      .info.responsive {position: relative;}
+  .info.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .info.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+ 
+  } 
+.about .me{
+ width: 100% !important;
+ display: inline-block;
+ margin: 10px 0;
+ text-align:center;
+}
+.me{
+  height: auto;
+  padding:5px;
+  margin: 30px 0;
+}
+.me h4{
+  margin:40px 0 10px ;
+  font-size: 15px;
+}
+.me h1{
+  padding:0;
+  font-size: 25px;
+}
+.me h5{
+  padding:0 !important;
+  margin:20px 0 !important;
+  font-size: 15px;
+}
+.btn{
+  margin-top:30px;
+  display:block;
+ 
+}
+.btn a{
+  margin-left:0;
+}
+.title{
+  margin:none !important;
+  padding:none;
+  width: 40%;
+}
+h1.title{
+  margin-bottom:20px;
+}
+h1.title.pro{
+  margin:20px 0 !important;
+  width:100%;
+}
+
+img.line{
+  display: block;
+  width: 100%;
+  padding:0px auto!important;
+}
+.content{
+  width: auto !important;
+}
+.about{
+  width: auto !important;
+}
+.about-section{
+  width:auto;
+  margin: 50px 0;
+  height: auto;
+}
+.about-section h1{
+  padding:0 32%;
+  text-align:center;
+}
+.programs{
+  width:auto;
+}
+img.line{
+  display: none;
+}
+.inside{
+  width: 100% !important;
+}
+
+.bio{
+  width: 90%;
+  height: auto;
+}
+.resume{
+  display: none;
+}
+.portfolio{
+  padding:0;
+  margin:60px 0 30px;
+  height: auto !important;
+
+}
+.portfolio h1{
+  padding:0 !important;
+  
+ 
+}
+.img-container{
+ margin: 20px !important;
+ width: 90%;
+}
+#text{
+  left:51%;
+}
+
+.tooltip .tooltiptext{
+  margin-left:-120px;
+}
+.tooltip .tooltiptext::after{
+  display:none;
+}
+.github{
+ display: none;
+}
+.github a {
+ display: none;
+}
+.portfolio .icon{
+  display: none !important;
+}
+.footer-logo img{
+  margin:0;
+  padding-top:10px;
+}
+.footer-info{
+  padding-left:50px !important;
+}
+    }
+
+
+    @media only screen and (max-width: 768px){
+      .overlay-img{
+        width: 100%;
+      }
+      .font-img{
+      margin: 90px auto 0 auto !important;
+      display: block;
+     
+    }
+     #intro-button.btn{
+       margin: 0 auto !important;
+       display: block;
+       color:black;
+     }
+     body{
+       padding:none !important;
+     }
+    
+    }
+    
+    @media only screen and (max-width: 1024px){
+      .overlay-img{
+        width: 100%;
+      }
+      .font-img{
+        margin:90px auto 0 auto;
+      width: 300px;
+      display: block;
+    }
+     #intro-button.btn{
+       margin: 0 auto !important;
+       display: block;
+       color:black;
+     }
+     body{
+       padding:none !important;
+     }
+    
+    }
